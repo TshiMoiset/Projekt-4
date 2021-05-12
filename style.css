@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	/* !Ta bort om du inte gillar den */
 	user-select: none;
 }
 
@@ -31,18 +30,4 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
 	background: #0b6280;
-}
-
-/*----------------  Kod för backgrundsbilderna ----------------*/
-.neonMask {
-	min-height: 100vh;
-	width: 100%;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: relative;
-}
-
-.neonMask {
-	background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7));
 }
