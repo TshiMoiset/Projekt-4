@@ -114,6 +114,8 @@ li {
 	cursor: pointer;
 }
 
+/*----------- Innehålet i den responsiva menyn -----------*/
+
 .hamburgerNav {
 	display: none;
 	justify-content: left;
@@ -136,6 +138,7 @@ li {
 	color: white;
 }
 
+/*------------ Knappen för att stänga av sidnaven -------------*/
 .crossButton {
 	font-size: 1.5em;
 	position: absolute;
