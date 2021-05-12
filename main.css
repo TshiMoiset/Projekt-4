@@ -6,6 +6,7 @@ main {
 	display: flex;
 	height: 95vh;
 	width: 95vh;
+	font-family: "Gill-Sans";
 }
 
 .rightContent {
