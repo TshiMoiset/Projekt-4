@@ -26,10 +26,6 @@ body.active {
 	overflow: hidden;
 }
 
-/*[data-current] {
-	border-bottom: cyan 2px solid;
-}*/
-
 header {
 	padding: 10px 20px;
 	background-color: #051e37;
@@ -42,6 +38,47 @@ a {
 
 li {
 	list-style: none;
+}
+/*[data-current] {
+	border-bottom: cyan 2px solid;
+}*/
+
+.logo {
+	font-family: "Neon-Display";
+	font-size: 2em;
+	color: #06bdd9;
+	margin: 0;
+	transition-duration: 500ms;
+}
+
+.logo:hover,
+.logo:active {
+	color: white;
+	transform: scale(1.09);
+	cursor: pointer;
+}
+
+.navbar {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbarLinks a {
+	color: #06bdd9;
+	transition-duration: 300ms;
+	font-family: "Gill-Sans";
+}
+
+.navbarLinks a:hover {
+	color: white;
+}
+
+.navbar ul li {
+	display: inline;
+	margin: 0 20px;
 }
 
 .hamburgerNav {
@@ -97,44 +134,6 @@ li {
 
 .crossButton {
 	cursor: pointer;
-}
-
-.logo {
-	font-family: "Neon-Display";
-	font-size: 2em;
-	color: #06bdd9;
-	margin: 0;
-	transition-duration: 500ms;
-}
-
-.logo:hover,
-.logo:active {
-	color: white;
-	transform: scale(1.09);
-	cursor: pointer;
-}
-
-.navbar {
-	width: 90%;
-	margin: auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-
-.navbarLinks a {
-	color: #06bdd9;
-	transition-duration: 300ms;
-	font-family: "Gill-Sans";
-}
-
-.navbarLinks a:hover {
-	color: white;
-}
-
-.navbar ul li {
-	display: inline;
-	margin: 0 20px;
 }
 
 /*----------- Responsiv menu design -----------*/
