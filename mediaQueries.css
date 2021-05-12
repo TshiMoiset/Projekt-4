@@ -1,66 +1,69 @@
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 1784px) {
-  /*------------- Header -------------*/
+	/*------------- Header -------------*/
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 769px) {
-  /*------------- Header -------------*/
-  .hamburgerButton {
-    display: flex;
-  }
+	/*------------- Header -------------*/
+	.hamburgerButton {
+		display: flex;
+	}
 
-  .navbarLinks {
-    display: none;
-  }
+	.navbarLinks {
+		display: none;
+	}
 
-  .copyright span {
-    padding-right: 9px;
-  }
+	.copyright span {
+		padding-right: 9px;
+	}
+
+	.rightContent {
+	}
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
 @media screen and (max-width: 635px) {
-  .footerContent {
-    justify-content: center;
-  }
+	.footerContent {
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 541px) {
-  .footerLinks ul {
-    font-size: 13px;
-  }
+	.footerLinks ul {
+		font-size: 13px;
+	}
 }
 
 @media screen and (max-width: 376px) {
-  .footerContent {
-    display: flex;
-    justify-content: space-evenly;
-  }
+	.footerContent {
+		display: flex;
+		justify-content: space-evenly;
+	}
 
-  .copyright {
-    display: inline-block;
-    flex-wrap: wrap;
-    text-align: center;
-    align-self: center;
-  }
+	.copyright {
+		display: inline-block;
+		flex-wrap: wrap;
+		text-align: center;
+		align-self: center;
+	}
 
-  .copyright span {
-    padding: 0;
-  }
+	.copyright span {
+		padding: 0;
+	}
 
-  .copyright p {
-    margin: 10px;
-  }
+	.copyright p {
+		margin: 10px;
+	}
 
-  .footerLinks ul {
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+	.footerLinks ul {
+		margin: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 
-  .footerLinks ul li {
-    margin: 4px;
-  }
+	.footerLinks ul li {
+		margin: 4px;
+	}
 }
