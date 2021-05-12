@@ -47,6 +47,8 @@ li {
 	border-bottom: cyan 2px solid;
 }*/
 
+/*--------------- Logan	------------*/
+
 .logo {
 	font-family: "Neon-Display";
 	font-size: 2em;
@@ -61,6 +63,8 @@ li {
 	transform: scale(1.09);
 	cursor: pointer;
 }
+
+/*---------- Navigationen på sidan ----------------*/
 
 .navbar {
 	width: 90%;
@@ -85,6 +89,8 @@ li {
 	margin: 0 20px;
 }
 
+/*--------------- Knappen för när sidan används på en enhet mindre än 768px -----------------*/
+
 .hamburgerButton {
 	position: absolute;
 	top: 1.2rem;
@@ -96,6 +102,7 @@ li {
 	height: 21px;
 }
 
+/*------------ Hamburgarmenyn --------------*/
 .hamburgerButton .bar {
 	height: 3px;
 	width: 100%;
