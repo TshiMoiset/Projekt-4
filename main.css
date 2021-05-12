@@ -1,0 +1,41 @@
+body {
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  height: 95vh;
+  width: 95vh;
+}
+
+.rightContent {
+  padding: 15px 5px;
+  position: absolute;
+  background-color: #051e37;
+  height: 95vh;
+  right: 0;
+}
+
+.socialMedia a {
+  display: flex;
+  padding: 20px;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  left: 100000000px;
+  color: #06bdd9;
+  font-family: "Gill-Sans";
+  transition: 500ms;
+}
+
+.socialMedia a:hover {
+  color: white;
+}
+
+.socialMedia ul {
+  padding: 0;
+}
+
+.leftContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

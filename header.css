@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Neon-Display";
+  src: url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.eot");
+  src: url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6207747900cfb386801d961165d4f933.svg#Neon-Display")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Gill-Sans";
+  src: url("GillSansStd-Light.otf") format("woff");
+}
+
+body {
+  display: block;
+}
+
+body.active {
+  overflow: hidden;
+}
+
+/*[data-current] {
+  border-bottom: cyan 2px solid;
+}*/
+
+header {
+  padding: 10px 20px;
+  /*background-color: rgba(5, 30, 55, 0.7);*/
+  background-color: #051e37;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.hamburgerNav {
+  display: none;
+  justify-content: left;
+  position: fixed;
+  z-index: 1;
+  background-color: #051e37;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  transition: 500ms;
+  overflow-y: scroll;
+}
+
+.hamburgerNav li {
+  font-size: 1.6em;
+}
+
+.hamburgerNav a {
+  color: white;
+}
+
+.hamburgerButton {
+  position: absolute;
+  top: 1.2rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.hamburgerButton .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.hamburgerButton:hover {
+  cursor: pointer;
+}
+
+.crossButton {
+  font-size: 1.5em;
+  position: absolute;
+  top: 11px;
+  right: 19px;
+}
+
+.crossButton {
+  cursor: pointer;
+}
+
+.logo {
+  font-family: "Neon-Display";
+  font-size: 2em;
+  color: #06bdd9;
+  margin: 0;
+  transition-duration: 500ms;
+}
+
+.logo:hover,
+.logo:active {
+  color: white;
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbarLinks a {
+  color: #06bdd9;
+  transition-duration: 300ms;
+  font-family: "Gill-Sans";
+}
+
+.navbarLinks a:hover {
+  color: white;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+/*----------- Responsiv menu design -----------*/
+
+.hamburgerNavLogo {
+  font-family: "Neon-Display";
+  font-size: 1.9em;
+  position: absolute;
+  margin: 10px 10px;
+}
+
+.hamburgerNavLogo {
+  margin: 10px 10px;
+}
+
+.hamburgerNavContent {
+  font-family: "Gill-Sans";
+  margin: 10px 10px;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.hamburgerNavContent ul {
+  padding: 0;
+  margin-top: -10px;
+}
+
+.hamburgerNavContent li {
+  margin: 30px;
+}
+
+.hamburgerNavContent h2 {
+  width: 100%;
+  padding-bottom: 3px;
+  border-bottom: solid 1px white;
+}
+
+.hamburgerNavContent a {
+  font-size: 0.8em;
+}
+
+/*.dotMenu {
+  display: flex;
+  position: absolute;
+  top: 1rem;
+  font-size: 2rem;
+  right: 1.7rem;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.dotMenu:hover {
+  transform: scale(1.09);
+}*/
+
+/*
+.drop {
+  animation: dropIn 500ms;
+  --order: 15;
+  animation-delay: calc(var(--order) * 150ms);
+}
+
+@keyframes dropIn {
+  from {
+    transform: translateY(-500px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}*/
