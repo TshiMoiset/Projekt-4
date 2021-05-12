@@ -25,6 +25,7 @@ body {
 }
 
 body.active {
+	/* Koden gör så att man inte kan scrolla på sidan när sidnavbar är aktiv/öppen */
 	overflow: hidden;
 }
 
