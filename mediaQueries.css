@@ -36,6 +36,11 @@
 		width: 100%;
 		height: 100%;
 	}
+
+	.bottom {
+		grid-gap: 1.5rem;
+		font-size: 0.75rem;
+	}
 }
 
 /*------------- @MEDIA ------------- @MEDIA -------------*/
