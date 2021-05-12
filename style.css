@@ -6,28 +6,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	color: white;
 	height: 100vh;
+	color: white;
+	background-color: black;
 }
 
 /*------------------  Scrollen  ------------------*/
 
 /* width */
 ::-webkit-scrollbar {
-	width: 2px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-	background: white;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-	background: #142d57;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-	background: #0b6280;
+	width: 0;
 }
