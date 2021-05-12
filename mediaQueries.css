@@ -19,6 +19,22 @@
 	}
 	.rightContent {
 		padding: 15px 1px;
+		display: none;
+	}
+
+	main {
+		display: unset;
+		width: 105%;
+	}
+
+	.slides img,
+	.slides2 img,
+	.slides3 img,
+	.slides4 img,
+	.slides5 img,
+	.slides6 img {
+		width: 100%;
+		height: 100%;
 	}
 }
 
