@@ -41,13 +41,17 @@
 .bottom {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 9rem;
+	grid-gap: 3rem;
 	position: absolute;
 	width: 90%;
 	height: 10%;
 	left: 2.6rem;
 	top: 70%;
 	padding: 20px;
+}
+
+.bottom p {
+	background-color: rgb(5, 30, 55, 0.2);
 }
 
 /*.bottom {

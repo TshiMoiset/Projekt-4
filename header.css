@@ -189,18 +189,48 @@ li {
 	font-size: 0.8em;
 }
 
-/*.dotMenu {
-  display: flex;
-  position: absolute;
-  top: 1rem;
-  font-size: 2rem;
-  right: 1.7rem;
-  width: 30px;
-  height: 21px;
-  cursor: pointer;
-  transition: 500ms;
+.dotMenu {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 4px;
+	transition: 500ms;
+	top: 23px;
+	right: 23px;
+	position: absolute;
 }
 
+.dotMenu:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+}
+
+.dot {
+	height: 5px;
+	width: 5px;
+	background-color: white;
+	border-radius: 50%;
+}
+
+/*.dotMenu .dot {
+	height: 3px;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+}*/
+
+/*.dot {
+	display: flex;
+	position: absolute;
+	top: 1rem;
+	font-size: 2rem;
+	right: 1.7rem;
+	width: 30px;
+	height: 21px;
+	cursor: pointer;
+	transition: 500ms;
+}*/
+
+/*
 .dotMenu:hover {
   transform: scale(1.09);
 }*/
