@@ -41,7 +41,7 @@
 .bottom {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-gap: 3rem;
+	grid-gap: 9rem;
 	position: absolute;
 	width: 90%;
 	height: 10%;
